@@ -1,4 +1,5 @@
 body{
+    font-size:larger;
     text-align: center;
     max-width: 100%;
     min-width: 50%;
@@ -18,7 +19,8 @@ label{
 .form-group{
     text-align: left;
     margin-left: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    
 }
 
 
@@ -30,7 +32,7 @@ form {
     margin:0 auto;
     padding: 40px 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
+    font-size: medium;
     font-weight: light;
 }
 
@@ -38,10 +40,13 @@ input[type="text"],
 input[type="email"],
 input[type="number"]{
     width:90%;
+    height:1.9em;
+    
 }
 
 textarea{
     width: 90%;
+    height: 100px;
 }
 
 .rads {
@@ -50,4 +55,15 @@ textarea{
     margin:0 0.5em 0 0;
 }
     
+.form-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+.form-group .check{
+    display: inline;
+    vertical-align: middle;
+    margin:0 0.5em 0 0;
+}
