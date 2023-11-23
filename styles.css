@@ -41,12 +41,14 @@ input[type="email"],
 input[type="number"]{
     width:90%;
     height:1.9em;
+    border-radius: 8px;
     
 }
 
 textarea{
     width: 90%;
     height: 100px;
+    border-radius: 8px;
 }
 
 .rads {
@@ -66,4 +68,11 @@ textarea{
     display: inline;
     vertical-align: middle;
     margin:0 0.5em 0 0;
+    border-radius: 8px;
+}
+
+.form-group select{
+    width:250px;
+    height: 30px;
+    border-radius: 8px;
 }
