@@ -3,7 +3,8 @@ body{
     text-align: center;
     max-width: 100%;
     min-width: 50%;
-    background-image:url('https://media.istockphoto.com/id/1489789832/photo/data-technology-background-code-hexagon-digital-grid-line-rise-up-dark-blue-big-data-concept.webp?b=1&s=170667a&w=0&k=20&c=jl2XwBDzyvry5xCZT9F9aMQLn2P9HhyAbsqXAPCHYos=')
+    background-image:url('https://media.istockphoto.com/id/1489789832/photo/data-technology-background-code-hexagon-digital-grid-line-rise-up-dark-blue-big-data-concept.webp?b=1&s=170667a&w=0&k=20&c=jl2XwBDzyvry5xCZT9F9aMQLn2P9HhyAbsqXAPCHYos=');
+    background-attachment: fixed;    
 }
 
 h1, p{
@@ -26,7 +27,7 @@ label{
 
 
 form {
-    background-color:rgb(24, 32, 43);
+    background-color:rgba(24, 32, 43, 85%);
     color: aliceblue;
     max-width: 50%;
     margin:0 auto;
@@ -34,6 +35,8 @@ form {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
     font-weight: light;
+    border-radius: 10px;
+    
 }
 
 input[type="text"],
@@ -75,4 +78,14 @@ textarea{
     width:250px;
     height: 30px;
     border-radius: 8px;
+}
+
+input[type="submit"]{
+    height:50px;
+    width:200px;
+    background-color: lightgreen;
+    font-size:15px;
+    font-weight: lighter;
+    color: aliceblue;
+    cursor:grab;
 }
